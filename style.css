@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
+  
+body{
+    background-color: #1F2937;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;;
+}
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li{
+    margin-bottom: 16px;
+}
+
+/* HERO / HEADER */
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    gap: 200px;
+}
+
+.hero-logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #F9FAF8;
+    gap: 18px;  
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 10px;
+    padding: 100px;
+
+}
+
+/* UPPER TEXT */
+
+img {
+    max-width: 50%;
+    height: auto;
+  }
+
+.titleawe{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    
+}
+
+.textawe{
+    font-size: 18px;
+    color:#E5E7EB;
+    text-align: left;
+}
+
+.awesome-text{
+    
+}
+
+.abutton{
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding:  5px 15px;
+    border: 1px solid #3882F6;
+    color: white;
+}
+
+.awesomepic{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
